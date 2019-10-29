@@ -1,0 +1,120 @@
+body {
+  background-color: #f2eee5;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+font-family: 'Sacramento', cursive;
+font-size: 4.65rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #f2eee5;
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+font-size: 1.25rem;
+color: #be7575;
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #12B1A6;
+  border-width: 5px;
+  width: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p th tr td {
+  font-family: 'Montserrat', sans-serif;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+.gallery-btn {
+  font-family: 'Sacramento';
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #be7575;
+  color: white;
+}
+
+.img-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon {
+  padding-left: 10px;
+}
+
+.intro-container {
+  text-align: center;
+  position: relative;
+  padding: 100px 0;
+  margin-bottom: 50px;
+  background-image: linear-gradient(to bottom right, #be7575, #f6ad7b);
+  background-size: cover;
+}
+
+.about-container {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+
+.events-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.xp-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footer {
+  background-image: linear-gradient(to top left, #be7575, #f6ad7b);
+  text-align: center;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 3px solid #d3cfc6;
+  padding: 5% 5%;
+  margin: 2%;
+}
+
+.gallery-img {
+  padding: 5%;
+}
